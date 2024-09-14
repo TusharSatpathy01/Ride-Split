@@ -53,4 +53,3 @@ GitHub: https://github.com/TusharSatpathy01<br>
 
 Inspired by the need for cost-efficient travel solutions.<br>
 Thanks to the open-source community for continuous inspiration!
-This template should give your project a professional touch. Replace the placeholders (like the demo URL and your contact info) with your actual information. Let me know if you need further modifications!
