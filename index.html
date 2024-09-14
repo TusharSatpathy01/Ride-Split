@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Bike Trip Cost Calculator</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Bike Trip Cost Calculator</h2>
+    <form>
+        <div class="form-group">
+            <label for="mileage">Bike Mileage (km/l)</label>
+            <input type="number" class="form-control" id="mileage" placeholder="Enter mileage">
+        </div>
+        <div class="form-group">
+            <label for="petrolPrice">Petrol Price (₹/liter)</label>
+            <input type="number" class="form-control" id="petrolPrice" placeholder="Enter petrol price">
+        </div>
+        <div class="form-group">
+            <label for="distance">Distance (km)</label>
+            <input type="number" class="form-control" id="distance" placeholder="Enter distance">
+        </div>
+        <div class="form-group">
+            <label for="persons">Number of Persons</label>
+            <input type="number" class="form-control" id="persons" placeholder="Enter number of persons">
+        </div>
+        <div class="d-flex justify-content-between">
+            <button type="button" class="btn btn-primary" onclick="calculateCost()">Calculate</button>
+            <button type="button" class="btn btn-secondary" onclick="resetForm()">Reset</button>
+        </div>
+    </form>
+
+    <div class="results">
+        <div class="loading" id="loading">Calculating...</div>
+        <p id="totalCost"></p>
+        <p id="costPerPerson"></p>
+        <p id="fuelTip"></p>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>

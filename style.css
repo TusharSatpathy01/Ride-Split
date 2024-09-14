@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+}
+
+.container {
+    background-color: #fff;
+    color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0072ff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #0072ff;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.results {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.loading {
+    display: none;
+}
+
+.loading.show {
+    display: inline-block;
+}
